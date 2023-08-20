@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Smolblog\OAuth2\Client\Provider;
 
 use League\OAuth2\Client\Provider\ResourceOwnerInterface;
