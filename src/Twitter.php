@@ -44,6 +44,11 @@ class Twitter extends AbstractProvider
         return 'https://twitter.com/i/oauth2/authorize';
     }
 
+    protected function getPkceMethod(): string
+    {
+        return AbstractProvider::PKCE_METHOD_S256;
+    }
+
     protected function getAuthorizationParameters(array $options): array
     {
         if (!isset($options['code_challenge'])) {
