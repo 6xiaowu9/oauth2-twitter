@@ -21,14 +21,14 @@
     "twitter"
   ],
   "require": {
-    "php": "^7.3 || ^8.0",
-    "league/oauth2-client": "^2.0",
+    "php": "^8.1",
+    "league/oauth2-client": "^2.7",
     "paragonie/random-lib": "^2.0"
   },
   "require-dev": {
-    "eloquent/phony-phpunit": "^6.0 || ^7.1",
-    "phpunit/phpunit": ">=8.0",
-    "squizlabs/php_codesniffer": "^3.0"
+    "eloquent/phony-phpunit": "^7.1",
+    "phpunit/phpunit": "^9.6",
+    "squizlabs/php_codesniffer": "^3.7"
   },
   "autoload": {
     "psr-4": {
